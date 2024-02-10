@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
         System.out.println("tasks 1 through 3");
         var dog = 8.0;
         System.out.println(dog);
@@ -20,8 +19,6 @@ public class Main {
         System.out.println(paper);
         paper = paper - 7639;
         System.out.println(paper);
-        System.out.println();
-        System.out.println();
         System.out.println("task 4");
         var friend = 19;
         System.out.println(friend);
@@ -29,8 +26,6 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
-        System.out.println();
-        System.out.println();
         System.out.println("task 5");
         var frog = 3.5;
         System.out.println(frog);
@@ -40,8 +35,6 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-        System.out.println();
-        System.out.println();
         System.out.println("task 6 through 7");
         var boxer1 = 78.2;
         var boxer2 = 82.7;
@@ -49,36 +42,32 @@ public class Main {
         System.out.println(boxer1);
         System.out.println("the other boxer's weight");
         System.out.println(boxer2);
-        var totalweight = boxer1 + boxer2;
+        var totalWeight = boxer1 + boxer2;
         System.out.println("total weight of the two boxers");
-        System.out.println(totalweight);
+        System.out.println(totalWeight);
         System.out.println();
-        var differenceweight = boxer2 - boxer1;
+        var differenceWeight = boxer2 - boxer1;
         System.out.println("the weight difference between two boxers is");
-        System.out.println(differenceweight);
-        System.out.println();
+        System.out.println(differenceWeight);
         var division = boxer2 / boxer1;
         System.out.println(division);
         System.out.println(boxer2 % boxer1);
-        System.out.println();
-        System.out.println();
         System.out.println("task 8");
-        var totaltime = 640;
+        var totalTime = 640;
         System.out.println("total working time =");
-        System.out.println(totaltime);
-        var empltime = 8;
+        System.out.println(totalTime);
+        var emplTime = 8;
         System.out.println("working time per employee =");
-        System.out.println(empltime);
-        var totalempl = totaltime / empltime;
+        System.out.println(emplTime);
+        var totalEmpl = totalTime / emplTime;
         System.out.println("the total number of employees is =");
-        System.out.println(totalempl);
-        System.out.println();
+        System.out.println(totalEmpl);
         System.out.println("If there are 94 more employees");
-        var totalempl2 = totalempl + 94;
-        System.out.println(totalempl2);
-        var totaltime2 = totalempl2 * empltime;
+        var totalEmpl2 = totalEmpl + 94;
+        System.out.println(totalEmpl2);
+        var totalTime2 = totalEmpl2 * emplTime;
         System.out.println("total working hours will be equal to");
-        System.out.println(totaltime2);
+        System.out.println(totalTime2);
 
 
 
